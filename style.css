@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#canvas {
+  /* height: 100vh;
+  width: 100vw; 左右滚动条使用这个取消 */
+  display: block; /*因为发现上下出现滚动条，说明他是display:inline属性，改成block*/
+}
